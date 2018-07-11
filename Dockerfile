@@ -20,6 +20,7 @@ ENV APP_NAME="Calibre"
 # Default resolution, change if you like
 ENV WIDTH=1280
 ENV HEIGHT=720
+ENV EDGE=1
 
 # Use baseimage-docker's init system
 CMD ["/sbin/my_init"]
